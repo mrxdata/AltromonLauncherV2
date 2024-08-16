@@ -1,0 +1,12 @@
+# ninja log v6
+92	764	7454923570302569	AltromonLauncher_autogen/timestamp	6b42b35d4531cd05
+19	102	7454923629355987	C:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	13efbe01d226ebb6
+92	764	7454923570302569	C:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/AltromonLauncher_autogen/mocs_compilation.cpp	6b42b35d4531cd05
+92	764	7454923570302569	AltromonLauncher_autogen/mocs_compilation.cpp	6b42b35d4531cd05
+92	764	7454923570302569	C:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/AltromonLauncher_autogen/timestamp	6b42b35d4531cd05
+769	3359	7454923571077620	CMakeFiles/AltromonLauncher.dir/AltromonLauncher_autogen/mocs_compilation.cpp.obj	c9b685b7e11e4b97
+778	3517	7454923571167679	CMakeFiles/AltromonLauncher.dir/mainwindow.cpp.obj	3729d2ef7bff2da2
+774	3524	7454923571122832	CMakeFiles/AltromonLauncher.dir/main.cpp.obj	d013cb675587aee9
+3525	3942	7454923598634781	AltromonLauncher.exe	3e9c2afa1fa5dfd2
+102	980	7454923636294021	build.ninja	9b9632c19cff007f
+14	94	7454923638670628	C:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	13efbe01d226ebb6
