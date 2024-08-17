@@ -129,13 +129,17 @@ C:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Altromo
   C:/Qt/6.7.2/mingw_64/include/QtGui/qimage.h \
   C:/Qt/6.7.2/mingw_64/include/QtGui/qkeysequence.h \
   C:/Qt/6.7.2/mingw_64/include/QtGui/qpaintdevice.h \
+  C:/Qt/6.7.2/mingw_64/include/QtGui/qpainter.h \
+  C:/Qt/6.7.2/mingw_64/include/QtGui/qpainterpath.h \
   C:/Qt/6.7.2/mingw_64/include/QtGui/qpalette.h \
+  C:/Qt/6.7.2/mingw_64/include/QtGui/qpen.h \
   C:/Qt/6.7.2/mingw_64/include/QtGui/qpixelformat.h \
   C:/Qt/6.7.2/mingw_64/include/QtGui/qpixmap.h \
   C:/Qt/6.7.2/mingw_64/include/QtGui/qpolygon.h \
   C:/Qt/6.7.2/mingw_64/include/QtGui/qregion.h \
   C:/Qt/6.7.2/mingw_64/include/QtGui/qrgb.h \
   C:/Qt/6.7.2/mingw_64/include/QtGui/qrgba64.h \
+  C:/Qt/6.7.2/mingw_64/include/QtGui/qtextoption.h \
   C:/Qt/6.7.2/mingw_64/include/QtGui/qtgui-config.h \
   C:/Qt/6.7.2/mingw_64/include/QtGui/qtguiexports.h \
   C:/Qt/6.7.2/mingw_64/include/QtGui/qtguiglobal.h \
@@ -143,7 +147,18 @@ C:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Altromo
   C:/Qt/6.7.2/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.7.2/mingw_64/include/QtGui/qwindowdefs_win.h \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/QDialog \
+  C:/Qt/6.7.2/mingw_64/include/QtWidgets/QGraphicsBlurEffect \
+  C:/Qt/6.7.2/mingw_64/include/QtWidgets/QGraphicsPixmapItem \
+  C:/Qt/6.7.2/mingw_64/include/QtWidgets/QGraphicsScene \
+  C:/Qt/6.7.2/mingw_64/include/QtWidgets/QGraphicsView \
+  C:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractscrollarea.h \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/qdialog.h \
+  C:/Qt/6.7.2/mingw_64/include/QtWidgets/qframe.h \
+  C:/Qt/6.7.2/mingw_64/include/QtWidgets/qgraphicseffect.h \
+  C:/Qt/6.7.2/mingw_64/include/QtWidgets/qgraphicsitem.h \
+  C:/Qt/6.7.2/mingw_64/include/QtWidgets/qgraphicsscene.h \
+  C:/Qt/6.7.2/mingw_64/include/QtWidgets/qgraphicsview.h \
+  C:/Qt/6.7.2/mingw_64/include/QtWidgets/qscrollarea.h \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/qsizepolicy.h \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/qtwidgets-config.h \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/qtwidgetsexports.h \

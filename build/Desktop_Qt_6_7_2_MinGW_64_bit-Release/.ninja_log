@@ -1,0 +1,17 @@
+# ninja log v6
+24	399	7455788814493895	C:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/CMakeFiles/cmake.verify_globs	2d794d6bea8bc5a3
+296	975	7455788423240237	C:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/AltromonLauncher_autogen/mocs_compilation.cpp	1090e814da5f5ab7
+1063	1147	7455788424860867	CMakeFiles/AltromonLauncher.dir/icon.rc.obj	ac582d4f4897b750
+296	975	7455788423240237	AltromonLauncher_autogen/timestamp	1090e814da5f5ab7
+982	1048	7455788424624140	C:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/AltromonLauncher_autogen/EWIEGA46WW/qrc_resources.cpp	1708a5bd39f33da5
+296	975	7455788423240237	AltromonLauncher_autogen/mocs_compilation.cpp	1090e814da5f5ab7
+296	975	7455788423240237	C:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/AltromonLauncher_autogen/timestamp	1090e814da5f5ab7
+982	1048	7455788424624140	AltromonLauncher_autogen/EWIEGA46WW/qrc_resources.cpp	1708a5bd39f33da5
+1069	1170	7455788424911337	CMakeFiles/AltromonLauncher.dir/AltromonLauncher_autogen/EWIEGA46WW/qrc_resources.cpp.obj	a3b01c7da6abca03
+1049	4780	7455788424714837	CMakeFiles/AltromonLauncher.dir/AltromonLauncher_autogen/mocs_compilation.cpp.obj	ff38c0419dce0f96
+1052	4833	7455788424745191	CMakeFiles/AltromonLauncher.dir/main.cpp.obj	726c93b3193ee22c
+1056	4935	7455788424785457	CMakeFiles/AltromonLauncher.dir/mainwindow.cpp.obj	437bb9d72a70373d
+1060	4950	7455788424825649	CMakeFiles/AltromonLauncher.dir/authwindow.cpp.obj	2ee7018fdb67a14c
+4950	5134	7455788463726182	AltromonLauncher.exe	151c10d36d81b9fe
+399	1514	7455788826406723	build.ninja	590f285dab2aef6f
+23	589	7455788828024687	C:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/CMakeFiles/cmake.verify_globs	2d794d6bea8bc5a3
