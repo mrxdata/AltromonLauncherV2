@@ -1,8 +1,10 @@
-#include "mainwindow.h"
 
+#include "authwindow.h"
+#include "mainwindow.h"
 #include <QApplication>
 #include <QLocale>
 #include <QTranslator>
+#include <QLabel>
 
 int main(int argc, char *argv[])
 {
@@ -17,7 +19,11 @@ int main(int argc, char *argv[])
             break;
         }
     }
-    MainWindow w;
-    w.show();
+
+    AuthWindow authWindow;
+    MainWindow mainWindow;
+
+    authWindow.show();
+
     return a.exec();
 }

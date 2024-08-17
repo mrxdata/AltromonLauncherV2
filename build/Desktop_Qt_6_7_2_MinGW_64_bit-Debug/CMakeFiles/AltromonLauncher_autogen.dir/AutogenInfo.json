@@ -259,7 +259,8 @@
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsVersionlessTargets.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeParseArguments.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/GNUInstallDirs.cmake"
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/GNUInstallDirs.cmake",
+		"C:/QtProjects/AltromonLauncher/resources.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "C:/QtProjects/AltromonLauncher",
 	"CROSS_CONFIG" : false,
@@ -267,6 +268,12 @@
 	"DEP_FILE_RULE_NAME" : "AltromonLauncher_autogen/timestamp",
 	"HEADERS" : 
 	[
+		[
+			"C:/QtProjects/AltromonLauncher/authwindow.h",
+			"MU",
+			"EWIEGA46WW/moc_authwindow.cpp",
+			null
+		],
 		[
 			"C:/QtProjects/AltromonLauncher/mainwindow.h",
 			"MU",
@@ -345,6 +352,7 @@
 	"SETTINGS_FILE" : "C:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/AltromonLauncher_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "C:/QtProjects/AltromonLauncher/authwindow.cpp", "MU", null ],
 		[ "C:/QtProjects/AltromonLauncher/main.cpp", "MU", null ],
 		[ "C:/QtProjects/AltromonLauncher/mainwindow.cpp", "MU", null ]
 	],

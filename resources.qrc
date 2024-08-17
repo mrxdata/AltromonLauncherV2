@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/resources">
+        <file>img/altromon-v2-64x.ico</file>
+    </qresource>
+</RCC>
