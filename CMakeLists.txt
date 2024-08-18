@@ -34,6 +34,9 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         authwindow.h authwindow.cpp authwindow.ui
         mainwindow.h mainwindow.cpp mainwindow.ui
 
+
+
+
     )
 
 
