@@ -1,4 +1,3 @@
-
 #include "authwindow.h"
 #include "mainwindow.h"
 #include <QApplication>
@@ -19,14 +18,8 @@ int main(int argc, char *argv[])
             break;
         }
     }
-
     AuthWindow authWindow;
     MainWindow mainWindow;
-
-    QObject::connect(&authWindow, &AuthWindow::authSuccessful, &authWindow, [&]() {
-        authWindow.hide();
-        mainWindow.show();
-    });
 
     authWindow.show();
 

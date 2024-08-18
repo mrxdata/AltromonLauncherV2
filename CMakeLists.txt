@@ -16,9 +16,9 @@ set(TS_FILES AltromonLauncher_ru_RU.ts)
 
 set(PROJECT_SOURCES
         main.cpp
-        mainwindow.cpp
-        mainwindow.h
-        mainwindow.ui
+
+
+
         ${TS_FILES}
 )
 
@@ -28,8 +28,12 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         ${PROJECT_SOURCES}
 
         resources.qrc
-        authwindow.h authwindow.cpp authwindow.ui
+
         icon.rc
+        basewindow.h basewindow.cpp basewindow.ui
+        authwindow.h authwindow.cpp authwindow.ui
+        mainwindow.h mainwindow.cpp mainwindow.ui
+
     )
 
 

@@ -65,9 +65,16 @@ build CMakeFiles/AltromonLauncher.dir/main.cpp.obj: CXX_COMPILER__AltromonLaunch
   OBJECT_DIR = CMakeFiles\AltromonLauncher.dir
   OBJECT_FILE_DIR = CMakeFiles\AltromonLauncher.dir
 
-build CMakeFiles/AltromonLauncher.dir/mainwindow.cpp.obj: CXX_COMPILER__AltromonLauncher_unscanned_Debug C$:/QtProjects/AltromonLauncher/mainwindow.cpp || cmake_object_order_depends_target_AltromonLauncher
+build CMakeFiles/AltromonLauncher.dir/icon.rc.obj: RC_COMPILER__AltromonLauncher_unscanned_Debug C$:/QtProjects/AltromonLauncher/icon.rc || cmake_object_order_depends_target_AltromonLauncher
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  DEP_FILE = CMakeFiles\AltromonLauncher.dir\mainwindow.cpp.obj.d
+  DEP_FILE = CMakeFiles\AltromonLauncher.dir\icon.rc.obj.d
+  INCLUDES = -I C:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/AltromonLauncher_autogen/include -I C:/Qt/6.7.2/mingw_64/include/QtCore -I C:/Qt/6.7.2/mingw_64/include -I C:/Qt/6.7.2/mingw_64/mkspecs/win32-g++ -I C:/Qt/6.7.2/mingw_64/include/QtWidgets -I C:/Qt/6.7.2/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\AltromonLauncher.dir
+  OBJECT_FILE_DIR = CMakeFiles\AltromonLauncher.dir
+
+build CMakeFiles/AltromonLauncher.dir/basewindow.cpp.obj: CXX_COMPILER__AltromonLauncher_unscanned_Debug C$:/QtProjects/AltromonLauncher/basewindow.cpp || cmake_object_order_depends_target_AltromonLauncher
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\AltromonLauncher.dir\basewindow.cpp.obj.d
   FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
   INCLUDES = -IC:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/AltromonLauncher_autogen/include -isystem C:/Qt/6.7.2/mingw_64/include/QtCore -isystem C:/Qt/6.7.2/mingw_64/include -isystem C:/Qt/6.7.2/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.2/mingw_64/include/QtWidgets -isystem C:/Qt/6.7.2/mingw_64/include/QtGui
   OBJECT_DIR = CMakeFiles\AltromonLauncher.dir
@@ -81,10 +88,11 @@ build CMakeFiles/AltromonLauncher.dir/authwindow.cpp.obj: CXX_COMPILER__Altromon
   OBJECT_DIR = CMakeFiles\AltromonLauncher.dir
   OBJECT_FILE_DIR = CMakeFiles\AltromonLauncher.dir
 
-build CMakeFiles/AltromonLauncher.dir/icon.rc.obj: RC_COMPILER__AltromonLauncher_unscanned_Debug C$:/QtProjects/AltromonLauncher/icon.rc || cmake_object_order_depends_target_AltromonLauncher
+build CMakeFiles/AltromonLauncher.dir/mainwindow.cpp.obj: CXX_COMPILER__AltromonLauncher_unscanned_Debug C$:/QtProjects/AltromonLauncher/mainwindow.cpp || cmake_object_order_depends_target_AltromonLauncher
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  DEP_FILE = CMakeFiles\AltromonLauncher.dir\icon.rc.obj.d
-  INCLUDES = -I C:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/AltromonLauncher_autogen/include -I C:/Qt/6.7.2/mingw_64/include/QtCore -I C:/Qt/6.7.2/mingw_64/include -I C:/Qt/6.7.2/mingw_64/mkspecs/win32-g++ -I C:/Qt/6.7.2/mingw_64/include/QtWidgets -I C:/Qt/6.7.2/mingw_64/include/QtGui
+  DEP_FILE = CMakeFiles\AltromonLauncher.dir\mainwindow.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/AltromonLauncher_autogen/include -isystem C:/Qt/6.7.2/mingw_64/include/QtCore -isystem C:/Qt/6.7.2/mingw_64/include -isystem C:/Qt/6.7.2/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.2/mingw_64/include/QtWidgets -isystem C:/Qt/6.7.2/mingw_64/include/QtGui
   OBJECT_DIR = CMakeFiles\AltromonLauncher.dir
   OBJECT_FILE_DIR = CMakeFiles\AltromonLauncher.dir
 
@@ -104,7 +112,7 @@ build CMakeFiles/AltromonLauncher.dir/AltromonLauncher_autogen/EWIEGA46WW/qrc_re
 #############################################
 # Link the executable AltromonLauncher.exe
 
-build AltromonLauncher.exe: CXX_EXECUTABLE_LINKER__AltromonLauncher_Debug CMakeFiles/AltromonLauncher.dir/AltromonLauncher_autogen/mocs_compilation.cpp.obj CMakeFiles/AltromonLauncher.dir/main.cpp.obj CMakeFiles/AltromonLauncher.dir/mainwindow.cpp.obj CMakeFiles/AltromonLauncher.dir/authwindow.cpp.obj CMakeFiles/AltromonLauncher.dir/icon.rc.obj CMakeFiles/AltromonLauncher.dir/AltromonLauncher_autogen/EWIEGA46WW/qrc_resources.cpp.obj | C$:/Qt/6.7.2/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.7.2/mingw_64/lib/libQt6Gui.a C$:/Qt/6.7.2/mingw_64/lib/libQt6Core.a C$:/Qt/6.7.2/mingw_64/lib/libQt6EntryPoint.a || AltromonLauncher_autogen AltromonLauncher_autogen_timestamp_deps
+build AltromonLauncher.exe: CXX_EXECUTABLE_LINKER__AltromonLauncher_Debug CMakeFiles/AltromonLauncher.dir/AltromonLauncher_autogen/mocs_compilation.cpp.obj CMakeFiles/AltromonLauncher.dir/main.cpp.obj CMakeFiles/AltromonLauncher.dir/icon.rc.obj CMakeFiles/AltromonLauncher.dir/basewindow.cpp.obj CMakeFiles/AltromonLauncher.dir/authwindow.cpp.obj CMakeFiles/AltromonLauncher.dir/mainwindow.cpp.obj CMakeFiles/AltromonLauncher.dir/AltromonLauncher_autogen/EWIEGA46WW/qrc_resources.cpp.obj | C$:/Qt/6.7.2/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.7.2/mingw_64/lib/libQt6Gui.a C$:/Qt/6.7.2/mingw_64/lib/libQt6Core.a C$:/Qt/6.7.2/mingw_64/lib/libQt6EntryPoint.a || AltromonLauncher_autogen AltromonLauncher_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = C:/Qt/6.7.2/mingw_64/lib/libQt6Widgets.a  C:/Qt/6.7.2/mingw_64/lib/libQt6Gui.a  C:/Qt/6.7.2/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  C:/Qt/6.7.2/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
@@ -191,7 +199,7 @@ build AltromonLauncher_autogen_timestamp_deps: phony
 #############################################
 # Utility command for AltromonLauncher_autogen
 
-build AltromonLauncher_autogen: phony CMakeFiles/AltromonLauncher_autogen AltromonLauncher_autogen/include/ui_mainwindow.h AltromonLauncher_autogen/include/ui_authwindow.h AltromonLauncher_autogen/timestamp AltromonLauncher_autogen/mocs_compilation.cpp AltromonLauncher_autogen_timestamp_deps
+build AltromonLauncher_autogen: phony CMakeFiles/AltromonLauncher_autogen AltromonLauncher_autogen/include/ui_basewindow.h AltromonLauncher_autogen/include/ui_authwindow.h AltromonLauncher_autogen/include/ui_mainwindow.h AltromonLauncher_autogen/timestamp AltromonLauncher_autogen/mocs_compilation.cpp AltromonLauncher_autogen_timestamp_deps
 
 
 #############################################
@@ -208,7 +216,7 @@ build AltromonLauncher_autogen/timestamp AltromonLauncher_autogen/mocs_compilati
 #############################################
 # Custom command for AltromonLauncher_autogen\EWIEGA46WW\qrc_resources.cpp
 
-build AltromonLauncher_autogen/EWIEGA46WW/qrc_resources.cpp | ${cmake_ninja_workdir}AltromonLauncher_autogen/EWIEGA46WW/qrc_resources.cpp: CUSTOM_COMMAND C$:/QtProjects/AltromonLauncher/resources.qrc CMakeFiles/AltromonLauncher_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json C$:/QtProjects/AltromonLauncher/img/circles.png C$:/QtProjects/AltromonLauncher/img/altromon-v2-64x.ico C$:/Qt/6.7.2/mingw_64/./bin/rcc.exe C$:/Qt/6.7.2/mingw_64/./bin/rcc.exe || AltromonLauncher_autogen AltromonLauncher_autogen_timestamp_deps
+build AltromonLauncher_autogen/EWIEGA46WW/qrc_resources.cpp | ${cmake_ninja_workdir}AltromonLauncher_autogen/EWIEGA46WW/qrc_resources.cpp: CUSTOM_COMMAND C$:/QtProjects/AltromonLauncher/resources.qrc CMakeFiles/AltromonLauncher_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json C$:/QtProjects/AltromonLauncher/img/background.png C$:/QtProjects/AltromonLauncher/img/circles.png C$:/QtProjects/AltromonLauncher/img/altromon-v2-64x.ico C$:/Qt/6.7.2/mingw_64/./bin/rcc.exe C$:/Qt/6.7.2/mingw_64/./bin/rcc.exe || AltromonLauncher_autogen AltromonLauncher_autogen_timestamp_deps
   COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\QtProjects\AltromonLauncher\build\Desktop_Qt_6_7_2_MinGW_64_bit-Debug && C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autorcc C:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/AltromonLauncher_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json Debug"
   DESC = Automatic RCC for resources.qrc
   restat = 1
@@ -217,7 +225,7 @@ build AltromonLauncher_autogen/EWIEGA46WW/qrc_resources.cpp | ${cmake_ninja_work
 #############################################
 # Phony custom command for CMakeFiles\AltromonLauncher_autogen
 
-build CMakeFiles/AltromonLauncher_autogen AltromonLauncher_autogen/include/ui_mainwindow.h AltromonLauncher_autogen/include/ui_authwindow.h | ${cmake_ninja_workdir}CMakeFiles/AltromonLauncher_autogen ${cmake_ninja_workdir}AltromonLauncher_autogen/include/ui_mainwindow.h ${cmake_ninja_workdir}AltromonLauncher_autogen/include/ui_authwindow.h: phony AltromonLauncher_autogen/timestamp || AltromonLauncher_autogen_timestamp_deps
+build CMakeFiles/AltromonLauncher_autogen AltromonLauncher_autogen/include/ui_basewindow.h AltromonLauncher_autogen/include/ui_authwindow.h AltromonLauncher_autogen/include/ui_mainwindow.h | ${cmake_ninja_workdir}CMakeFiles/AltromonLauncher_autogen ${cmake_ninja_workdir}AltromonLauncher_autogen/include/ui_basewindow.h ${cmake_ninja_workdir}AltromonLauncher_autogen/include/ui_authwindow.h ${cmake_ninja_workdir}AltromonLauncher_autogen/include/ui_mainwindow.h: phony AltromonLauncher_autogen/timestamp || AltromonLauncher_autogen_timestamp_deps
 
 # =============================================================================
 # Target aliases.

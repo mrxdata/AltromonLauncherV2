@@ -1,114 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
  <class>AuthWindow</class>
- <widget class="QDialog" name="AuthWindow">
+ <widget class="QWidget" name="AuthWindow">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>960</width>
-    <height>540</height>
+    <width>400</width>
+    <height>300</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Dialog</string>
+   <string>Form</string>
   </property>
-  <widget class="QWidget" name="">
-   <property name="geometry">
-    <rect>
-     <x>381</x>
-     <y>171</y>
-     <width>157</width>
-     <height>167</height>
-    </rect>
-   </property>
-   <layout class="QVBoxLayout" name="verticalLayout">
-    <item>
-     <widget class="QLabel" name="authLabel">
-      <property name="styleSheet">
-       <string notr="true"/>
-      </property>
-      <property name="text">
-       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:18pt; font-weight:700; color:#ffffff;&quot;&gt;Авторизация&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QLineEdit" name="loginForm">
-      <property name="styleSheet">
-       <string notr="true">background-color: #1c1c1c;
-background-image: none;
-border: 1px solid #e5e5ea;
-border-radius: 6px;
-color: #343434;
-font-size: 14px;
-line-height: 1.5;
-padding: 5px;</string>
-      </property>
-      <property name="maxLength">
-       <number>16</number>
-      </property>
-      <property name="placeholderText">
-       <string>Логин </string>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QLineEdit" name="passwordForm">
-      <property name="styleSheet">
-       <string notr="true">background-color: #1c1c1c;
-background-image: none;
-border: 1px solid #e5e5ea;
-border-radius: 6px;
-border-color: #505050;
-color: #343434;
-font-size: 14px;
-line-height: 1.5;
-padding: 5px;</string>
-      </property>
-      <property name="maxLength">
-       <number>255</number>
-      </property>
-      <property name="echoMode">
-       <enum>QLineEdit::EchoMode::Password</enum>
-      </property>
-      <property name="placeholderText">
-       <string>Пароль</string>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <spacer name="verticalSpacer">
-      <property name="orientation">
-       <enum>Qt::Orientation::Vertical</enum>
-      </property>
-      <property name="sizeType">
-       <enum>QSizePolicy::Policy::Fixed</enum>
-      </property>
-      <property name="sizeHint" stdset="0">
-       <size>
-        <width>20</width>
-        <height>13</height>
-       </size>
-      </property>
-     </spacer>
-    </item>
-    <item>
-     <widget class="QPushButton" name="authButton">
-      <property name="styleSheet">
-       <string notr="true">background-color: green;
-border-radius: 6px;
-height: 30px;
-</string>
-      </property>
-      <property name="text">
-       <string>Войти</string>
-      </property>
-     </widget>
-    </item>
-   </layout>
-  </widget>
-  <zorder>formLayoutWidget</zorder>
  </widget>
  <resources/>
  <connections/>

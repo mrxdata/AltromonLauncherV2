@@ -2,5 +2,6 @@
     <qresource prefix="/resources">
         <file>img/altromon-v2-64x.ico</file>
         <file>img/circles.png</file>
+        <file>img/background.png</file>
     </qresource>
 </RCC>

@@ -9,6 +9,7 @@
 	"INCLUDE_DIR" : "C:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/AltromonLauncher_autogen/include",
 	"INPUTS" : 
 	[
+		"C:/QtProjects/AltromonLauncher/img/background.png",
 		"C:/QtProjects/AltromonLauncher/img/circles.png",
 		"C:/QtProjects/AltromonLauncher/img/altromon-v2-64x.ico"
 	],
