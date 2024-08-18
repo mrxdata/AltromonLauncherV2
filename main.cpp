@@ -21,6 +21,11 @@ int main(int argc, char *argv[])
     AuthWindow authWindow;
     MainWindow mainWindow;
 
+    QObject::connect(&authWindow, &AuthWindow::authSuccessful, &a, [&]() {
+        mainWindow.show();
+        authWindow.close();
+    });
+
     authWindow.show();
 
     return a.exec();
