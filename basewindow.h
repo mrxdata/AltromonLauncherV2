@@ -16,6 +16,9 @@ public:
     explicit BaseWindow(QWidget *parent = nullptr);
     ~BaseWindow();
 
+protected:
+
+
 private:
     Ui::BaseWindow *ui;
     HeaderPanel *headerPanel;

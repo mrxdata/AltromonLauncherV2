@@ -291,6 +291,12 @@
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
 			null
+		],
+		[
+			"C:/QtProjects/AltromonLauncher/windowframe.h",
+			"MU",
+			"EWIEGA46WW/moc_windowframe.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -368,7 +374,8 @@
 		[ "C:/QtProjects/AltromonLauncher/basewindow.cpp", "MU", null ],
 		[ "C:/QtProjects/AltromonLauncher/headerpanel.cpp", "MU", null ],
 		[ "C:/QtProjects/AltromonLauncher/main.cpp", "MU", null ],
-		[ "C:/QtProjects/AltromonLauncher/mainwindow.cpp", "MU", null ]
+		[ "C:/QtProjects/AltromonLauncher/mainwindow.cpp", "MU", null ],
+		[ "C:/QtProjects/AltromonLauncher/windowframe.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

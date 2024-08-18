@@ -1,10 +1,10 @@
 #include "authwindow.h"
 #include "mainwindow.h"
+#include "windowframe.h"
 #include <QApplication>
 #include <QLocale>
 #include <QTranslator>
 #include <QLabel>
-#include <qstackedwidget.h>
 
 int main(int argc, char *argv[])
 {
@@ -19,14 +19,13 @@ int main(int argc, char *argv[])
             break;
         }
     }
-    QStackedWidget stackedWidget;
+    WindowFrame stackedWidget;
 
     AuthWindow authWindow;
     MainWindow mainWindow;
 
     stackedWidget.setWindowFlags(Qt::FramelessWindowHint);
     stackedWidget.setWindowIcon(QIcon(":/resources/img/altromon-v2-64x.ico"));
-
     stackedWidget.addWidget(&authWindow);
     stackedWidget.addWidget(&mainWindow);
 

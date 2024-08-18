@@ -48,12 +48,14 @@ set(OLD_GLOB
   "C:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/AltromonLauncher_autogen/EWIEGA46WW/moc_headerpanel.cpp"
   "C:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/AltromonLauncher_autogen/EWIEGA46WW/moc_mainwindow.cpp"
   "C:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/AltromonLauncher_autogen/EWIEGA46WW/moc_test.cpp"
+  "C:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/AltromonLauncher_autogen/EWIEGA46WW/moc_windowframe.cpp"
   "C:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/AltromonLauncher_autogen/EWIEGA46WW/qrc_resources.cpp"
   "C:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/AltromonLauncher_autogen/mocs_compilation.cpp"
   "C:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/3.29.3/CompilerIdCXX/CMakeCXXCompilerId.cpp"
   "C:/QtProjects/AltromonLauncher/headerpanel.cpp"
   "C:/QtProjects/AltromonLauncher/main.cpp"
   "C:/QtProjects/AltromonLauncher/mainwindow.cpp"
+  "C:/QtProjects/AltromonLauncher/windowframe.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
@@ -81,6 +83,7 @@ set(OLD_GLOB
   "C:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/AltromonLauncher_autogen/moc_predefs.h"
   "C:/QtProjects/AltromonLauncher/headerpanel.h"
   "C:/QtProjects/AltromonLauncher/mainwindow.h"
+  "C:/QtProjects/AltromonLauncher/windowframe.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

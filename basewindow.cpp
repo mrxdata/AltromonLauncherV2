@@ -1,6 +1,7 @@
 #include "basewindow.h"
 #include "ui_basewindow.h"
 #include <QVBoxLayout>
+#include <QMouseEvent>
 
 BaseWindow::BaseWindow(QWidget *parent)
     : QDialog(parent), ui(new Ui::BaseWindow)
@@ -26,3 +27,4 @@ BaseWindow::~BaseWindow()
 {
     delete ui;
 }
+
