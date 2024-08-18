@@ -1,5 +1,4 @@
 AltromonLauncher_autogen/timestamp: \
-	C:/Qt/6.7.2/mingw_64/include/QtCore/QPoint \
 	C:/Qt/6.7.2/mingw_64/include/QtCore/q20functional.h \
 	C:/Qt/6.7.2/mingw_64/include/QtCore/q20memory.h \
 	C:/Qt/6.7.2/mingw_64/include/QtCore/q20type_traits.h \
@@ -143,12 +142,8 @@ AltromonLauncher_autogen/timestamp: \
 	C:/Qt/6.7.2/mingw_64/include/QtGui/qwindowdefs.h \
 	C:/Qt/6.7.2/mingw_64/include/QtGui/qwindowdefs_win.h \
 	C:/Qt/6.7.2/mingw_64/include/QtWidgets/QDialog \
-	C:/Qt/6.7.2/mingw_64/include/QtWidgets/QMainWindow \
-	C:/Qt/6.7.2/mingw_64/include/QtWidgets/QWidget \
 	C:/Qt/6.7.2/mingw_64/include/QtWidgets/qdialog.h \
-	C:/Qt/6.7.2/mingw_64/include/QtWidgets/qmainwindow.h \
 	C:/Qt/6.7.2/mingw_64/include/QtWidgets/qsizepolicy.h \
-	C:/Qt/6.7.2/mingw_64/include/QtWidgets/qtabwidget.h \
 	C:/Qt/6.7.2/mingw_64/include/QtWidgets/qtwidgets-config.h \
 	C:/Qt/6.7.2/mingw_64/include/QtWidgets/qtwidgetsexports.h \
 	C:/Qt/6.7.2/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -543,5 +538,7 @@ AltromonLauncher_autogen/timestamp: \
 	C:/QtProjects/AltromonLauncher/mainwindow.cpp \
 	C:/QtProjects/AltromonLauncher/mainwindow.h \
 	C:/QtProjects/AltromonLauncher/resources.qrc \
+	C:/QtProjects/AltromonLauncher/authwindow.ui \
 	C:/QtProjects/AltromonLauncher/basewindow.ui \
+	C:/QtProjects/AltromonLauncher/mainwindow.ui \
 	C:/Qt/Tools/CMake_64/bin/cmake.exe
