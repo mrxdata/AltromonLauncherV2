@@ -281,6 +281,12 @@
 			null
 		],
 		[
+			"C:/QtProjects/AltromonLauncher/headerpanel.h",
+			"MU",
+			"EWIEGA46WW/moc_headerpanel.cpp",
+			null
+		],
+		[
 			"C:/QtProjects/AltromonLauncher/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
@@ -360,6 +366,7 @@
 	[
 		[ "C:/QtProjects/AltromonLauncher/authwindow.cpp", "MU", null ],
 		[ "C:/QtProjects/AltromonLauncher/basewindow.cpp", "MU", null ],
+		[ "C:/QtProjects/AltromonLauncher/headerpanel.cpp", "MU", null ],
 		[ "C:/QtProjects/AltromonLauncher/main.cpp", "MU", null ],
 		[ "C:/QtProjects/AltromonLauncher/mainwindow.cpp", "MU", null ]
 	],

@@ -33,6 +33,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         basewindow.h basewindow.cpp basewindow.ui
         authwindow.h authwindow.cpp authwindow.ui
         mainwindow.h mainwindow.cpp mainwindow.ui
+        headerpanel.h headerpanel.cpp headerpanel.ui
+
 
 
 

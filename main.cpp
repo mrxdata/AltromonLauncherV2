@@ -4,6 +4,7 @@
 #include <QLocale>
 #include <QTranslator>
 #include <QLabel>
+#include <qstackedwidget.h>
 
 int main(int argc, char *argv[])
 {
@@ -18,15 +19,24 @@ int main(int argc, char *argv[])
             break;
         }
     }
+    QStackedWidget stackedWidget;
+
     AuthWindow authWindow;
     MainWindow mainWindow;
 
+    stackedWidget.setWindowFlags(Qt::FramelessWindowHint);
+    stackedWidget.setWindowIcon(QIcon(":/resources/img/altromon-v2-64x.ico"));
+
+    stackedWidget.addWidget(&authWindow);
+    stackedWidget.addWidget(&mainWindow);
+
+    stackedWidget.setCurrentWidget(&authWindow);
+
     QObject::connect(&authWindow, &AuthWindow::authSuccessful, &a, [&]() {
-        mainWindow.show();
-        authWindow.close();
+        stackedWidget.setCurrentWidget(&mainWindow);
     });
 
-    authWindow.show();
+    stackedWidget.show();
 
     return a.exec();
 }

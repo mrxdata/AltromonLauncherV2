@@ -142,6 +142,7 @@ AltromonLauncher_autogen/timestamp: \
 	C:/Qt/6.7.2/mingw_64/include/QtGui/qwindowdefs.h \
 	C:/Qt/6.7.2/mingw_64/include/QtGui/qwindowdefs_win.h \
 	C:/Qt/6.7.2/mingw_64/include/QtWidgets/QDialog \
+	C:/Qt/6.7.2/mingw_64/include/QtWidgets/QWidget \
 	C:/Qt/6.7.2/mingw_64/include/QtWidgets/qdialog.h \
 	C:/Qt/6.7.2/mingw_64/include/QtWidgets/qsizepolicy.h \
 	C:/Qt/6.7.2/mingw_64/include/QtWidgets/qtwidgets-config.h \
@@ -534,6 +535,8 @@ AltromonLauncher_autogen/timestamp: \
 	C:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/3.29.3/CMakeCXXCompiler.cmake \
 	C:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/3.29.3/CMakeRCCompiler.cmake \
 	C:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/3.29.3/CMakeSystem.cmake \
+	C:/QtProjects/AltromonLauncher/headerpanel.cpp \
+	C:/QtProjects/AltromonLauncher/headerpanel.h \
 	C:/QtProjects/AltromonLauncher/main.cpp \
 	C:/QtProjects/AltromonLauncher/mainwindow.cpp \
 	C:/QtProjects/AltromonLauncher/mainwindow.h \

@@ -45,11 +45,13 @@ set(OLD_GLOB
   "C:/QtProjects/AltromonLauncher/basewindow.cpp"
   "C:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/AltromonLauncher_autogen/EWIEGA46WW/moc_authwindow.cpp"
   "C:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/AltromonLauncher_autogen/EWIEGA46WW/moc_basewindow.cpp"
+  "C:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/AltromonLauncher_autogen/EWIEGA46WW/moc_headerpanel.cpp"
   "C:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/AltromonLauncher_autogen/EWIEGA46WW/moc_mainwindow.cpp"
   "C:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/AltromonLauncher_autogen/EWIEGA46WW/moc_test.cpp"
   "C:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/AltromonLauncher_autogen/EWIEGA46WW/qrc_resources.cpp"
   "C:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/AltromonLauncher_autogen/mocs_compilation.cpp"
   "C:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/3.29.3/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+  "C:/QtProjects/AltromonLauncher/headerpanel.cpp"
   "C:/QtProjects/AltromonLauncher/main.cpp"
   "C:/QtProjects/AltromonLauncher/mainwindow.cpp"
   )
@@ -74,8 +76,10 @@ set(OLD_GLOB
   "C:/QtProjects/AltromonLauncher/basewindow.h"
   "C:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/AltromonLauncher_autogen/include/ui_authwindow.h"
   "C:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/AltromonLauncher_autogen/include/ui_basewindow.h"
+  "C:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/AltromonLauncher_autogen/include/ui_headerpanel.h"
   "C:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/AltromonLauncher_autogen/include/ui_mainwindow.h"
   "C:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/AltromonLauncher_autogen/moc_predefs.h"
+  "C:/QtProjects/AltromonLauncher/headerpanel.h"
   "C:/QtProjects/AltromonLauncher/mainwindow.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
@@ -179,6 +183,7 @@ file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/QtProjects/AltromonLaunche
 set(OLD_GLOB
   "C:/QtProjects/AltromonLauncher/authwindow.ui"
   "C:/QtProjects/AltromonLauncher/basewindow.ui"
+  "C:/QtProjects/AltromonLauncher/headerpanel.ui"
   "C:/QtProjects/AltromonLauncher/mainwindow.ui"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")

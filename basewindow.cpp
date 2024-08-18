@@ -1,17 +1,14 @@
 #include "basewindow.h"
 #include "ui_basewindow.h"
-#include <QPalette>
-#include <QPixmap>
+#include <QVBoxLayout>
 
 BaseWindow::BaseWindow(QWidget *parent)
     : QDialog(parent), ui(new Ui::BaseWindow)
 {
     ui->setupUi(this);
 
-    setWindowFlags(Qt::FramelessWindowHint);
     setFixedSize(960, 540);
     setWindowTitle("Altromon Launcher");
-    setWindowIcon(QIcon(":/resources/img/altromon-v2-64x.ico"));
 
     QPalette palette;
     QPixmap backgroundPixmap(":/resources/img/background.png");
@@ -19,10 +16,13 @@ BaseWindow::BaseWindow(QWidget *parent)
     palette.setBrush(QPalette::Window, QBrush(scaledPixmap));
     setPalette(palette);
     setAutoFillBackground(true);
+
+
+    headerPanel = new HeaderPanel(this);
+    headerPanel->setGeometry(0, 0, width(), 30);
 }
 
 BaseWindow::~BaseWindow()
 {
     delete ui;
 }
-
