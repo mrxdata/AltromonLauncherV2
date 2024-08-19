@@ -149,10 +149,13 @@ C:/QtProjects/AltromonLauncher/authwindow.h
  mdp:C:/Qt/6.7.2/mingw_64/include/QtGui/qwindowdefs_win.h
  mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/QDialog
  mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/QLabel
+ mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/QPushButton
  mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/QWidget
+ mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractbutton.h
  mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/qdialog.h
  mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/qframe.h
  mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/qlabel.h
+ mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/qpushbutton.h
  mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/qsizepolicy.h
  mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/qtwidgets-config.h
  mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/qtwidgetsexports.h
@@ -511,10 +514,13 @@ C:/QtProjects/AltromonLauncher/basewindow.h
  mdp:C:/Qt/6.7.2/mingw_64/include/QtGui/qwindowdefs_win.h
  mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/QDialog
  mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/QLabel
+ mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/QPushButton
  mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/QWidget
+ mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractbutton.h
  mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/qdialog.h
  mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/qframe.h
  mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/qlabel.h
+ mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/qpushbutton.h
  mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/qsizepolicy.h
  mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/qtwidgets-config.h
  mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/qtwidgetsexports.h
@@ -872,10 +878,13 @@ C:/QtProjects/AltromonLauncher/mainwindow.h
  mdp:C:/Qt/6.7.2/mingw_64/include/QtGui/qwindowdefs_win.h
  mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/QDialog
  mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/QLabel
+ mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/QPushButton
  mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/QWidget
+ mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractbutton.h
  mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/qdialog.h
  mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/qframe.h
  mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/qlabel.h
+ mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/qpushbutton.h
  mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/qsizepolicy.h
  mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/qtwidgets-config.h
  mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/qtwidgetsexports.h
@@ -1593,9 +1602,12 @@ C:/QtProjects/AltromonLauncher/headerpanel.h
  mdp:C:/Qt/6.7.2/mingw_64/include/QtGui/qwindowdefs.h
  mdp:C:/Qt/6.7.2/mingw_64/include/QtGui/qwindowdefs_win.h
  mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/QLabel
+ mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/QPushButton
  mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/QWidget
+ mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractbutton.h
  mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/qframe.h
  mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/qlabel.h
+ mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/qpushbutton.h
  mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/qsizepolicy.h
  mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/qtwidgets-config.h
  mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/qtwidgetsexports.h

@@ -13,6 +13,8 @@
 		"C:/QtProjects/AltromonLauncher/img/background.png",
 		"C:/QtProjects/AltromonLauncher/img/altromonfontglow.png",
 		"C:/QtProjects/AltromonLauncher/img/circles.png",
+		"C:/QtProjects/AltromonLauncher/img/CloseBtn.png",
+		"C:/QtProjects/AltromonLauncher/img/CollapseBtn.png",
 		"C:/QtProjects/AltromonLauncher/img/altromon-v2-64x.ico"
 	],
 	"LOCK_FILE" : "C:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/AltromonLauncher_autogen.dir/AutoRcc_resources_EWIEGA46WW_Lock.lock",

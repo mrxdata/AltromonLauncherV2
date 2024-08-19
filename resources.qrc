@@ -5,5 +5,7 @@
         <file>img/background.png</file>
         <file>img/altromon-64x-v2.png</file>
         <file>img/altromonfontglow.png</file>
+        <file>img/CloseBtn.png</file>
+        <file>img/CollapseBtn.png</file>
     </qresource>
 </RCC>

@@ -3,6 +3,7 @@
 
 #include <QWidget>
 #include <QLabel>
+#include <QPushButton>
 
 class HeaderPanel : public QWidget
 {
@@ -18,6 +19,10 @@ protected:
 private:
     QLabel *iconLabel;
     QLabel *logoLabel;
+    QPushButton *closeButton;
+    QPushButton *collapseButton;
+
+    void setupButtons();
 };
 
 #endif // HEADERPANEL_H
