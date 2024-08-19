@@ -2,6 +2,7 @@
 #include <QPainter>
 #include <QLinearGradient>
 #include <QGraphicsBlurEffect>
+#include <qapplication.h>
 
 HeaderPanel::HeaderPanel(QWidget *parent)
     : QWidget(parent),
@@ -67,8 +68,8 @@ HeaderPanel::HeaderPanel(QWidget *parent)
         "}");
     closeButton->move(width() - closeButton->width() - 3, (height() - closeButton->height()) / 2);
 
-    // connect(closeButton, &QPushButton::clicked, this, &HeaderPanel::closeButtonClicked);
-    // connect(collapseButton, &QPushButton::clicked, this, &HeaderPanel::collapseButtonClicked);
+    connect(closeButton, &QPushButton::clicked, this, &HeaderPanel::closeButtonClicked);
+    connect(collapseButton, &QPushButton::clicked, this, &HeaderPanel::collapseButtonClicked);
 }
 
 HeaderPanel::~HeaderPanel()
@@ -96,12 +97,14 @@ void HeaderPanel::paintEvent(QPaintEvent *event)
 
 }
 
-// void HeaderPanel::closeButtonClicked()
-// {
-//     // Реализуйте действие при нажатии на кнопку закрытия
-// }
+void HeaderPanel::closeButtonClicked()
+{
+    QApplication::quit();
+}
 
-// void HeaderPanel::collapseButtonClicked()
-// {
-//     // Реализуйте действие при нажатии на кнопку сворачивания
-// }
+void HeaderPanel::collapseButtonClicked()
+{
+    if (QWidget *window = this->window()) {
+        window->showMinimized();
+    }
+}

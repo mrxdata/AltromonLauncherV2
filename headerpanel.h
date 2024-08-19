@@ -16,6 +16,10 @@ public:
 protected:
     void paintEvent(QPaintEvent *event) override;
 
+private slots:
+    void closeButtonClicked();
+    void collapseButtonClicked();
+
 private:
     QLabel *iconLabel;
     QLabel *logoLabel;
