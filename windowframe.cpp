@@ -1,27 +1,26 @@
 #include "windowframe.h"
 
 WindowFrame::WindowFrame(QWidget *parent)
-    : QStackedWidget(parent), m_isDragging(false), m_headerPanel(nullptr)
+    : QStackedWidget(parent)
 {
+
 }
 
-WindowFrame::~WindowFrame() = default;
-
-void WindowFrame::setHeaderPanel(QWidget *headerPanel)
+WindowFrame::~WindowFrame()
 {
-    m_headerPanel = headerPanel;
 }
 
 void WindowFrame::mousePressEvent(QMouseEvent *event)
 {
-    if (event->button() == Qt::LeftButton && m_headerPanel) {
-        // Получаем размеры и положение headerPanel
-        QRect headerRect = m_headerPanel->rect().translated(m_headerPanel->mapToGlobal(QPoint(0, 0)));
+    if (event->button() == Qt::LeftButton) {
+        QPoint globalPos = event->globalPosition().toPoint();
 
-        // Проверяем, находится ли курсор в области headerPanel
-        if (headerRect.contains(event->globalPosition().toPoint())) {
+        QPoint windowTopLeft = mapToGlobal(QPoint(0, 0));
+
+        QRect headerRect(windowTopLeft, QSize(HEADER_WIDTH, HEADER_HEIGHT));
+        if (headerRect.contains(globalPos)) {
             m_isDragging = true;
-            m_dragPosition = event->globalPosition().toPoint() - frameGeometry().topLeft();
+            m_dragPosition = globalPos - frameGeometry().topLeft();
             event->accept();
         }
     }

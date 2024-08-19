@@ -11,7 +11,6 @@ class WindowFrame : public QStackedWidget
 public:
     explicit WindowFrame(QWidget *parent = nullptr);
     ~WindowFrame() override;
-    void setHeaderPanel(QWidget *headerPanel);
 
 
 protected:
@@ -22,9 +21,8 @@ protected:
 private:
     bool m_isDragging;
     QPoint m_dragPosition;
-    QWidget *m_headerPanel;
-    // static const int HEADER_HEIGHT = 36;
-    // static const int HEADER_WIDTH = 960;
+    static const int HEADER_HEIGHT = 36;
+    static const int HEADER_WIDTH = 960;
 };
 
 #endif // WINDOWFRAME_H

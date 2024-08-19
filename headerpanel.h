@@ -2,6 +2,7 @@
 #define HEADERPANEL_H
 
 #include <QWidget>
+#include <QLabel>
 
 class HeaderPanel : public QWidget
 {
@@ -15,7 +16,8 @@ protected:
     void paintEvent(QPaintEvent *event) override;
 
 private:
-
+    QLabel *iconLabel;
+    QLabel *logoLabel;
 };
 
 #endif // HEADERPANEL_H
