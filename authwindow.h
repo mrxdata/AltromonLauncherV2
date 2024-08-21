@@ -2,6 +2,7 @@
 #define AUTHWINDOW_H
 
 #include "basewindow.h"
+#include <QtNetwork/qnetworkreply.h>
 
 namespace Ui {
 class AuthWindow;
@@ -20,9 +21,14 @@ signals:
 
 private slots:
     void on_authButton_clicked();
+    void forgotPasswordClicked();
+    void registerClicked();
+    void onLoginFinished();
+    void onSavePassStateChanged(int state);
 
 private:
     Ui::AuthWindow *ui;
+    QNetworkAccessManager *networkManager;
 };
 
 #endif // AUTHWINDOW_H

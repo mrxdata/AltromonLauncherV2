@@ -1,5 +1,14 @@
 C:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/AltromonLauncher_autogen/EWIEGA46WW/moc_authwindow.cpp: C:/QtProjects/AltromonLauncher/authwindow.h \
   C:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/AltromonLauncher_autogen/moc_predefs.h \
+  C:/Qt/6.7.2/mingw_64/include/QtCore/QFlags \
+  C:/Qt/6.7.2/mingw_64/include/QtCore/QIODevice \
+  C:/Qt/6.7.2/mingw_64/include/QtCore/QList \
+  C:/Qt/6.7.2/mingw_64/include/QtCore/QMetaType \
+  C:/Qt/6.7.2/mingw_64/include/QtCore/QObject \
+  C:/Qt/6.7.2/mingw_64/include/QtCore/QSharedDataPointer \
+  C:/Qt/6.7.2/mingw_64/include/QtCore/QString \
+  C:/Qt/6.7.2/mingw_64/include/QtCore/QUrl \
+  C:/Qt/6.7.2/mingw_64/include/QtCore/QVariant \
   C:/Qt/6.7.2/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/q20memory.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/q20type_traits.h \
@@ -18,6 +27,7 @@ C:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Altromo
   C:/Qt/6.7.2/mingw_64/include/QtCore/qbytearrayalgorithms.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/qbytearraylist.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/qbytearrayview.h \
+  C:/Qt/6.7.2/mingw_64/include/QtCore/qcalendar.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/qchar.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/qcompare.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/qcompare_impl.h \
@@ -29,8 +39,10 @@ C:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Altromo
   C:/Qt/6.7.2/mingw_64/include/QtCore/qcontainerinfo.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/qcontainertools_impl.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/qcontiguouscache.h \
+  C:/Qt/6.7.2/mingw_64/include/QtCore/qcryptographichash.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/qdarwinhelpers.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/qdatastream.h \
+  C:/Qt/6.7.2/mingw_64/include/QtCore/qdatetime.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/qdebug.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/qendian.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/qexceptionhandling.h \
@@ -51,6 +63,7 @@ C:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Altromo
   C:/Qt/6.7.2/mingw_64/include/QtCore/qlatin1stringview.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/qline.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/qlist.h \
+  C:/Qt/6.7.2/mingw_64/include/QtCore/qlocale.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/qlogging.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/qmalloc.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/qmap.h \
@@ -146,6 +159,25 @@ C:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Altromo
   C:/Qt/6.7.2/mingw_64/include/QtGui/qtransform.h \
   C:/Qt/6.7.2/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.7.2/mingw_64/include/QtGui/qwindowdefs_win.h \
+  C:/Qt/6.7.2/mingw_64/include/QtNetwork/QNetworkAccessManager \
+  C:/Qt/6.7.2/mingw_64/include/QtNetwork/QNetworkRequest \
+  C:/Qt/6.7.2/mingw_64/include/QtNetwork/QSslConfiguration \
+  C:/Qt/6.7.2/mingw_64/include/QtNetwork/QSslPreSharedKeyAuthenticator \
+  C:/Qt/6.7.2/mingw_64/include/QtNetwork/qabstractsocket.h \
+  C:/Qt/6.7.2/mingw_64/include/QtNetwork/qhostaddress.h \
+  C:/Qt/6.7.2/mingw_64/include/QtNetwork/qnetworkaccessmanager.h \
+  C:/Qt/6.7.2/mingw_64/include/QtNetwork/qnetworkreply.h \
+  C:/Qt/6.7.2/mingw_64/include/QtNetwork/qnetworkrequest.h \
+  C:/Qt/6.7.2/mingw_64/include/QtNetwork/qssl.h \
+  C:/Qt/6.7.2/mingw_64/include/QtNetwork/qsslcertificate.h \
+  C:/Qt/6.7.2/mingw_64/include/QtNetwork/qsslconfiguration.h \
+  C:/Qt/6.7.2/mingw_64/include/QtNetwork/qsslerror.h \
+  C:/Qt/6.7.2/mingw_64/include/QtNetwork/qsslpresharedkeyauthenticator.h \
+  C:/Qt/6.7.2/mingw_64/include/QtNetwork/qsslsocket.h \
+  C:/Qt/6.7.2/mingw_64/include/QtNetwork/qtcpsocket.h \
+  C:/Qt/6.7.2/mingw_64/include/QtNetwork/qtnetwork-config.h \
+  C:/Qt/6.7.2/mingw_64/include/QtNetwork/qtnetworkexports.h \
+  C:/Qt/6.7.2/mingw_64/include/QtNetwork/qtnetworkglobal.h \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/QDialog \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/QLabel \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/QPushButton \

@@ -7,5 +7,6 @@
         <file>img/altromonfontglow.png</file>
         <file>img/CloseBtn.png</file>
         <file>img/CollapseBtn.png</file>
+        <file>img/Checked.png</file>
     </qresource>
 </RCC>
