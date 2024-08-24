@@ -7,6 +7,7 @@
 #include <QJsonDocument>
 #include <QJsonObject>
 #include <QSettings>
+#include <QGraphicsBlurEffect>
 
 
 AuthWindow::AuthWindow(QWidget *parent)
@@ -32,25 +33,36 @@ AuthWindow::AuthWindow(QWidget *parent)
 
     QPushButton *registerButton = new QPushButton(this);
     registerButton->setText("Зарегистрироваться");
+    registerButton->setCursor(Qt::PointingHandCursor);
     registerButton->setStyleSheet(
         "QPushButton {"
         "background-color: transparent;"
         "color: #FFFFFF;"
         "border: none;"
-        "font-size: 16px;"
+        "font-size: 14px;"
+        "font-weight: bold;"
         "text-align: center;"
+        "}"
+        "QPushButton:hover {"
+        "color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 #7067d2, stop:1 #c86997);"
         "}"
         );
 
     QPushButton *forgotPasswordButton = new QPushButton(this);
     forgotPasswordButton->setText("Сменить пароль");
+    forgotPasswordButton->setCursor(Qt::PointingHandCursor);
     forgotPasswordButton->setStyleSheet(
         "QPushButton {"
         "background-color: transparent;"
+        "margin-top: 15px;"
         "color: #FFFFFF;"
         "border: none;"
-        "font-size: 16px;"
+        "font-size: 14px;"
+        "font-weight: bold;"
         "text-align: center;"
+        "}"
+        "QPushButton:hover {"
+        "color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 #7067d2, stop:1 #c86997);"
         "}"
         );
 
@@ -96,8 +108,33 @@ AuthWindow::AuthWindow(QWidget *parent)
         "}"
         );
 
+
     ui->loginForm->setPlaceholderText("Логин");
+    ui->loginForm->setStyleSheet("QLineEdit {"
+                                 "background-color: rgba(255, 255, 255, 0.05);"
+                                 "color: #E6E6E6;"
+                                 "border-radius: 10px;"
+                                 "padding: 10px;"
+                                 "font-size: 16px;"
+                                 "font-weight: bold;"
+                                 "text-align: center;"
+                                 "}");
+
     ui->passForm->setPlaceholderText("Пароль");
+    ui->passForm->setStyleSheet("QLineEdit {"
+                                 "background-color: rgba(255, 255, 255, 0.05);"
+                                 "color: #E6E6E6;"
+                                 "border-radius: 10px;"
+                                 "padding: 10px;"
+                                 "font-size: 16px;"
+                                 "font-weight: bold;"
+                                 "text-align: center;"
+                                 "lineedit-password-character: 42;"
+                                 "}");
+
+    QGraphicsBlurEffect *blurEffect = new QGraphicsBlurEffect();
+    blurEffect->setBlurRadius(0);
+    ui->authButton->setGraphicsEffect(blurEffect);
 
     connect(ui->authButton,
             &QPushButton::clicked,
@@ -113,8 +150,10 @@ AuthWindow::AuthWindow(QWidget *parent)
             &QPushButton::clicked,
             this,
             &AuthWindow::forgotPasswordClicked);
-    connect(ui->SavePass, &QCheckBox::stateChanged, this, &AuthWindow::onSavePassStateChanged);
-
+    connect(ui->SavePass,
+            &QCheckBox::stateChanged,
+            this,
+            &AuthWindow::onSavePassStateChanged);
 
 
     QWidget *container = new QWidget(this);
@@ -129,9 +168,9 @@ AuthWindow::AuthWindow(QWidget *parent)
     container->setLayout(layout);
     container->setGeometry(posX, posY + 270, bgWidth, 80);
 
-    ui->authText->move(posX + (bgWidth - ui->authText->width()) / 2, posY + 20);
+    ui->authText->move(posX + (bgWidth - ui->authText->width()) / 2, posY + 15);
     ui->loginForm->move(posX + (bgWidth - ui->loginForm->width()) / 2, posY + 70);
-    ui->passForm->move(posX + (bgWidth - ui->passForm->width()) / 2, posY + 120);
+    ui->passForm->move(posX + (bgWidth - ui->passForm->width()) / 2, posY + 125);
     ui->SavePass->move(posX + (bgWidth - ui->SavePass->width()), posY + 170);
     ui->authButton->move(posX + (bgWidth - ui->authButton->width()) / 2, posY + 220);
 
@@ -206,6 +245,7 @@ void AuthWindow::onLoginFinished()
     }
     reply->deleteLater();
 }
+
 
 void AuthWindow::onSavePassStateChanged(int state)
 {

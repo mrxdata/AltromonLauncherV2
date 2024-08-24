@@ -24,6 +24,7 @@ int main(int argc, char *argv[])
     AuthWindow authWindow;
     MainWindow mainWindow;
 
+    stackedWidget.setWindowTitle("Altromon Launcher");
     stackedWidget.setWindowFlags(Qt::FramelessWindowHint);
     stackedWidget.setWindowIcon(QIcon(":/resources/img/altromon-v2-64x.ico"));
     stackedWidget.addWidget(&authWindow);

@@ -9,7 +9,6 @@ BaseWindow::BaseWindow(QWidget *parent)
     ui->setupUi(this);
 
     setFixedSize(960, 540);
-    // setWindowTitle("Altromon Launcher");
 
     QPalette palette;
     QPixmap backgroundPixmap(":/resources/img/background.png");

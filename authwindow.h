@@ -21,10 +21,10 @@ signals:
 
 private slots:
     void on_authButton_clicked();
-    void forgotPasswordClicked();
-    void registerClicked();
     void onLoginFinished();
     void onSavePassStateChanged(int state);
+    void forgotPasswordClicked();
+    void registerClicked();
 
 private:
     Ui::AuthWindow *ui;

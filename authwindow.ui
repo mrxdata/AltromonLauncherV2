@@ -25,7 +25,6 @@
    <property name="font">
     <font>
      <family>Inter</family>
-     <pointsize>-1</pointsize>
      <bold>true</bold>
     </font>
    </property>
@@ -38,6 +37,7 @@
     font-size: 16px; 
 	font-weight: bold;
     text-align: center
+    password-character: 42;
 }</string>
    </property>
    <property name="echoMode">
@@ -56,20 +56,11 @@
    <property name="font">
     <font>
      <family>Inter</family>
-     <pointsize>-1</pointsize>
      <bold>true</bold>
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">QLineEdit {
-    background-color: rgba(255, 255, 255, 0.05);
-    color: #E6E6E6; 
-    border-radius: 10px; 
-    padding: 10px; 
-    font-size: 16px; 
-	font-weight: bold;
-    text-align: center
-}</string>
+    <string notr="true"/>
    </property>
   </widget>
   <widget class="QCheckBox" name="SavePass">
@@ -85,6 +76,9 @@
     <font>
      <family>Inter</family>
     </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
    </property>
    <property name="text">
     <string>Сохранить Пароль</string>
@@ -127,6 +121,9 @@
      <italic>false</italic>
      <bold>true</bold>
     </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
    </property>
    <property name="styleSheet">
     <string notr="true"/>
