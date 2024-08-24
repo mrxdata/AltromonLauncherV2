@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-2ffabc1040a222af54fa.json",
+					"jsonFile" : "directory-.-Debug-971ee54bbe9526447a3a.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "AltromonLauncher::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-AltromonLauncher-Debug-fa1bb68ce7396d1c12b8.json",
+					"jsonFile" : "target-AltromonLauncher-Debug-643bbb74bf4f517655c7.json",
 					"name" : "AltromonLauncher",
 					"projectIndex" : 0
 				},

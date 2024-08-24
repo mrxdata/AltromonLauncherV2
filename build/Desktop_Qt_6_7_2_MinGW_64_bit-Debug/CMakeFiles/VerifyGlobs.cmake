@@ -55,6 +55,7 @@ set(OLD_GLOB
   "C:/QtProjects/AltromonLauncher/headerpanel.cpp"
   "C:/QtProjects/AltromonLauncher/main.cpp"
   "C:/QtProjects/AltromonLauncher/mainwindow.cpp"
+  "C:/QtProjects/AltromonLauncher/serverslider.cpp"
   "C:/QtProjects/AltromonLauncher/windowframe.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
@@ -83,6 +84,7 @@ set(OLD_GLOB
   "C:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/AltromonLauncher_autogen/moc_predefs.h"
   "C:/QtProjects/AltromonLauncher/headerpanel.h"
   "C:/QtProjects/AltromonLauncher/mainwindow.h"
+  "C:/QtProjects/AltromonLauncher/serverslider.h"
   "C:/QtProjects/AltromonLauncher/windowframe.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")

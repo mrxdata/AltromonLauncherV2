@@ -112,6 +112,14 @@ build CMakeFiles/AltromonLauncher.dir/windowframe.cpp.obj: CXX_COMPILER__Altromo
   OBJECT_DIR = CMakeFiles\AltromonLauncher.dir
   OBJECT_FILE_DIR = CMakeFiles\AltromonLauncher.dir
 
+build CMakeFiles/AltromonLauncher.dir/serverslider.cpp.obj: CXX_COMPILER__AltromonLauncher_unscanned_Debug C$:/QtProjects/AltromonLauncher/serverslider.cpp || cmake_object_order_depends_target_AltromonLauncher
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\AltromonLauncher.dir\serverslider.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/AltromonLauncher_autogen/include -isystem C:/Qt/6.7.2/mingw_64/include/QtCore -isystem C:/Qt/6.7.2/mingw_64/include -isystem C:/Qt/6.7.2/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.2/mingw_64/include/QtWidgets -isystem C:/Qt/6.7.2/mingw_64/include/QtGui -isystem C:/Qt/6.7.2/mingw_64/include/QtNetwork
+  OBJECT_DIR = CMakeFiles\AltromonLauncher.dir
+  OBJECT_FILE_DIR = CMakeFiles\AltromonLauncher.dir
+
 build CMakeFiles/AltromonLauncher.dir/AltromonLauncher_autogen/EWIEGA46WW/qrc_resources.cpp.obj: CXX_COMPILER__AltromonLauncher_unscanned_Debug C$:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/AltromonLauncher_autogen/EWIEGA46WW/qrc_resources.cpp || cmake_object_order_depends_target_AltromonLauncher
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\AltromonLauncher.dir\AltromonLauncher_autogen\EWIEGA46WW\qrc_resources.cpp.obj.d
@@ -128,7 +136,7 @@ build CMakeFiles/AltromonLauncher.dir/AltromonLauncher_autogen/EWIEGA46WW/qrc_re
 #############################################
 # Link the executable AltromonLauncher.exe
 
-build AltromonLauncher.exe: CXX_EXECUTABLE_LINKER__AltromonLauncher_Debug CMakeFiles/AltromonLauncher.dir/AltromonLauncher_autogen/mocs_compilation.cpp.obj CMakeFiles/AltromonLauncher.dir/main.cpp.obj CMakeFiles/AltromonLauncher.dir/icon.rc.obj CMakeFiles/AltromonLauncher.dir/basewindow.cpp.obj CMakeFiles/AltromonLauncher.dir/authwindow.cpp.obj CMakeFiles/AltromonLauncher.dir/mainwindow.cpp.obj CMakeFiles/AltromonLauncher.dir/headerpanel.cpp.obj CMakeFiles/AltromonLauncher.dir/windowframe.cpp.obj CMakeFiles/AltromonLauncher.dir/AltromonLauncher_autogen/EWIEGA46WW/qrc_resources.cpp.obj | C$:/Qt/6.7.2/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.7.2/mingw_64/lib/libQt6Network.a C$:/Qt/6.7.2/mingw_64/lib/libQt6Gui.a C$:/Qt/6.7.2/mingw_64/lib/libQt6Core.a C$:/Qt/6.7.2/mingw_64/lib/libQt6EntryPoint.a || AltromonLauncher_autogen AltromonLauncher_autogen_timestamp_deps
+build AltromonLauncher.exe: CXX_EXECUTABLE_LINKER__AltromonLauncher_Debug CMakeFiles/AltromonLauncher.dir/AltromonLauncher_autogen/mocs_compilation.cpp.obj CMakeFiles/AltromonLauncher.dir/main.cpp.obj CMakeFiles/AltromonLauncher.dir/icon.rc.obj CMakeFiles/AltromonLauncher.dir/basewindow.cpp.obj CMakeFiles/AltromonLauncher.dir/authwindow.cpp.obj CMakeFiles/AltromonLauncher.dir/mainwindow.cpp.obj CMakeFiles/AltromonLauncher.dir/headerpanel.cpp.obj CMakeFiles/AltromonLauncher.dir/windowframe.cpp.obj CMakeFiles/AltromonLauncher.dir/serverslider.cpp.obj CMakeFiles/AltromonLauncher.dir/AltromonLauncher_autogen/EWIEGA46WW/qrc_resources.cpp.obj | C$:/Qt/6.7.2/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.7.2/mingw_64/lib/libQt6Network.a C$:/Qt/6.7.2/mingw_64/lib/libQt6Gui.a C$:/Qt/6.7.2/mingw_64/lib/libQt6Core.a C$:/Qt/6.7.2/mingw_64/lib/libQt6EntryPoint.a || AltromonLauncher_autogen AltromonLauncher_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = C:/Qt/6.7.2/mingw_64/lib/libQt6Widgets.a  C:/Qt/6.7.2/mingw_64/lib/libQt6Network.a  C:/Qt/6.7.2/mingw_64/lib/libQt6Gui.a  -ld3d11  -ldxgi  -ldxguid  -ld3d12  C:/Qt/6.7.2/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  C:/Qt/6.7.2/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -lws2_32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32

@@ -192,31 +192,33 @@ AuthWindow::~AuthWindow()
 
 void AuthWindow::on_authButton_clicked()
 {
-    QString username = ui->loginForm->text();
-    QString password = ui->passForm->text();
+    emit authSuccessful();
 
-    QUrl url("https://atromon.ob1lab.ru/api/auth/loginLauncher");
-    QNetworkRequest request(url);
+    // QString username = ui->loginForm->text();
+    // QString password = ui->passForm->text();
 
-    request.setHeader(QNetworkRequest::ContentTypeHeader, "application/json");
+    // QUrl url("https://atromon.ob1lab.ru/api/auth/loginLauncher");
+    // QNetworkRequest request(url);
 
-    QJsonObject json;
-    json["username"] = username;
-    json["password"] = password;
+    // request.setHeader(QNetworkRequest::ContentTypeHeader, "application/json");
 
-    QJsonDocument jsonDoc(json);
-    QByteArray jsonData = jsonDoc.toJson();
+    // QJsonObject json;
+    // json["username"] = username;
+    // json["password"] = password;
 
-    qDebug() << "Request JSON: " << jsonData;
+    // QJsonDocument jsonDoc(json);
+    // QByteArray jsonData = jsonDoc.toJson();
 
-    QNetworkReply *reply = networkManager->post(request, jsonData);
-    connect(reply, &QNetworkReply::finished, this, &AuthWindow::onLoginFinished);
+    // qDebug() << "Request JSON: " << jsonData;
 
-    if (ui->SavePass->isChecked()) {
-        QSettings settings("Altromon", "Launcher");
-        settings.setValue("username", username);
-        settings.setValue("password", password);
-    }
+    // QNetworkReply *reply = networkManager->post(request, jsonData);
+    // connect(reply, &QNetworkReply::finished, this, &AuthWindow::onLoginFinished);
+
+    // if (ui->SavePass->isChecked()) {
+    //     QSettings settings("Altromon", "Launcher");
+    //     settings.setValue("username", username);
+    //     settings.setValue("password", password);
+    // }
 }
 
 void AuthWindow::onLoginFinished()

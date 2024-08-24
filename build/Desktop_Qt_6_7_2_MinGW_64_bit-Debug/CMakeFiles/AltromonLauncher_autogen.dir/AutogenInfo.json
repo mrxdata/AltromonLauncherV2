@@ -323,6 +323,12 @@
 			null
 		],
 		[
+			"C:/QtProjects/AltromonLauncher/serverslider.h",
+			"MU",
+			"EWIEGA46WW/moc_serverslider.cpp",
+			null
+		],
+		[
 			"C:/QtProjects/AltromonLauncher/windowframe.h",
 			"MU",
 			"EWIEGA46WW/moc_windowframe.cpp",
@@ -407,6 +413,7 @@
 		[ "C:/QtProjects/AltromonLauncher/headerpanel.cpp", "MU", null ],
 		[ "C:/QtProjects/AltromonLauncher/main.cpp", "MU", null ],
 		[ "C:/QtProjects/AltromonLauncher/mainwindow.cpp", "MU", null ],
+		[ "C:/QtProjects/AltromonLauncher/serverslider.cpp", "MU", null ],
 		[ "C:/QtProjects/AltromonLauncher/windowframe.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
