@@ -1,4 +1,3 @@
-// itemselector.h
 #ifndef ITEMSELECTOR_H
 #define ITEMSELECTOR_H
 
@@ -18,14 +17,12 @@ private slots:
     void selectItem();
 
 private:
-    void initializeItems();
-    void updateLayout();
-
     QPushButton *selectedItem;
     QVBoxLayout *mainLayout;
     QHBoxLayout *itemsLayout;
     QVector<QPushButton*> items;
     QVector<QLabel*> labels;
+    QVector<QVBoxLayout*> itemLayouts; // Хранит макеты для кнопок и меток
     int itemCount;
 };
 

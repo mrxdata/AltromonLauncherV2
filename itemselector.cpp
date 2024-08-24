@@ -1,17 +1,19 @@
-// itemselector.cpp
 #include "itemselector.h"
 #include <QRandomGenerator>
 
-ItemSelector::ItemSelector(QWidget *parent) : QWidget(parent), selectedItem(nullptr), itemCount(5) {
+ItemSelector::ItemSelector(QWidget *parent)
+    : QWidget(parent), selectedItem(nullptr), itemCount(5) {
+
     mainLayout = new QVBoxLayout(this);
-    mainLayout->setContentsMargins(5, 5, 5, 5); // Устанавливаем отступы для mainLayout
+    mainLayout->setContentsMargins(5, 5, 5, 5);
 
     itemsLayout = new QHBoxLayout();
-    itemsLayout->setContentsMargins(5, 5, 5, 5); // Устанавливаем отступы для itemsLayout
+    itemsLayout->setContentsMargins(5, 5, 5, 5);
 
-    // Создаем остальные кнопки и заголовки
+    // Создаем кнопки и метки, добавляем их в отдельные QVBoxLayout
     for (int i = 0; i < itemCount; ++i) {
         QVBoxLayout *buttonLayout = new QVBoxLayout();
+
         QPushButton *item = new QPushButton(QString("Item %1").arg(i + 1), this);
         item->setFixedSize(76, 76);
         item->setStyleSheet(QString("background-color: rgb(%1, %2, %3);")
@@ -27,8 +29,11 @@ ItemSelector::ItemSelector(QWidget *parent) : QWidget(parent), selectedItem(null
         buttonLayout->addWidget(item);
         buttonLayout->addWidget(label);
         buttonLayout->setAlignment(Qt::AlignHCenter);
+
         itemsLayout->addLayout(buttonLayout);
+        itemLayouts.append(buttonLayout); // Сохраняем макет для последующего использования
     }
+
 
     mainLayout->addLayout(itemsLayout);
     setLayout(mainLayout);
@@ -39,9 +44,10 @@ void ItemSelector::selectItem() {
     if (clickedItem) {
         // Сброс предыдущего выбранного элемента
         if (selectedItem) {
+            int prevIndex = items.indexOf(selectedItem);
             selectedItem->setFixedSize(76, 76);
-            selectedItem->setText(QString("Item %1").arg(items.indexOf(selectedItem) + 1));
-            labels[items.indexOf(selectedItem)]->setVisible(true);
+            selectedItem->setText(QString("Item %1").arg(prevIndex + 1));
+            labels[prevIndex]->setVisible(true);
         }
 
         // Устанавливаем новый выбранный элемент
@@ -53,26 +59,11 @@ void ItemSelector::selectItem() {
         int index = items.indexOf(clickedItem);
         if (index != -1) {
             labels[index]->setVisible(false);
-        }
 
-        // Перемещаем выбранный элемент в начало
-        itemsLayout->removeWidget(clickedItem);
-        itemsLayout->insertWidget(0, clickedItem);
-
-        // Перемещаем остальные элементы
-        QVector<QPushButton*> newOrder;
-        newOrder.append(clickedItem);
-        for (int i = index + 1; i < items.size(); ++i) {
-            newOrder.append(items[i]);
-        }
-        for (int i = 0; i < index; ++i) {
-            newOrder.append(items[i]);
-        }
-
-        // Обновляем компоновку
-        for (int i = 1; i < newOrder.size(); ++i) {
-            itemsLayout->removeWidget(newOrder[i]);
-            itemsLayout->addWidget(newOrder[i]);
+            // Перемещаем весь QVBoxLayout с кнопкой и меткой в начало
+            QVBoxLayout *selectedLayout = itemLayouts[index];
+            itemsLayout->removeItem(selectedLayout);
+            itemsLayout->insertItem(0, selectedLayout);
         }
     }
 }
