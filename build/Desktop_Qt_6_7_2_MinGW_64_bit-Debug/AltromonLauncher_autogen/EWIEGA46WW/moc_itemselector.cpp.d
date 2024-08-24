@@ -1,4 +1,4 @@
-C:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/AltromonLauncher_autogen/EWIEGA46WW/moc_mainwindow.cpp: C:/QtProjects/AltromonLauncher/mainwindow.h \
+C:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/AltromonLauncher_autogen/EWIEGA46WW/moc_itemselector.cpp: C:/QtProjects/AltromonLauncher/itemselector.h \
   C:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/AltromonLauncher_autogen/moc_predefs.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/q20memory.h \
@@ -146,7 +146,6 @@ C:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Altromo
   C:/Qt/6.7.2/mingw_64/include/QtGui/qtransform.h \
   C:/Qt/6.7.2/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.7.2/mingw_64/include/QtGui/qwindowdefs_win.h \
-  C:/Qt/6.7.2/mingw_64/include/QtWidgets/QDialog \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/QHBoxLayout \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/QLabel \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/QPushButton \
@@ -154,7 +153,6 @@ C:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Altromo
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/QWidget \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractbutton.h \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/qboxlayout.h \
-  C:/Qt/6.7.2/mingw_64/include/QtWidgets/qdialog.h \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/qframe.h \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/qgridlayout.h \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/qlabel.h \
@@ -364,7 +362,4 @@ C:/QtProjects/AltromonLauncher/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Altromo
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/sys/types.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/time.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
-  C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
-  C:/QtProjects/AltromonLauncher/basewindow.h \
-  C:/QtProjects/AltromonLauncher/headerpanel.h \
-  C:/QtProjects/AltromonLauncher/itemselector.h
+  C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h

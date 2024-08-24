@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include "basewindow.h"
+#include "itemselector.h"
 
 namespace Ui {
 class MainWindow;
@@ -17,6 +18,7 @@ public:
 
 private:
     Ui::MainWindow *ui;
+    ItemSelector *itemSelector;
 };
 
 #endif // MAINWINDOW_H

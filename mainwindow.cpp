@@ -6,7 +6,9 @@
 
 
 MainWindow::MainWindow(QWidget *parent)
-    : BaseWindow(parent), ui(new Ui::MainWindow)
+    : BaseWindow(parent),
+    ui(new Ui::MainWindow),
+    itemSelector(new ItemSelector(this))
 {
     ui->setupUi(this);
 
@@ -35,6 +37,10 @@ MainWindow::MainWindow(QWidget *parent)
     playerBlock->setStyleSheet("background-color: rgba(0, 0, 0, 0.2); border-radius: 15px;");
     playerBlock->setFixedSize(266, 393);
 
+    QVBoxLayout *topBlockLayout = new QVBoxLayout(topBlock);
+    topBlockLayout->addWidget(itemSelector); // Добавляем ItemSelector в topBlock
+    topBlockLayout->setContentsMargins(5, 5, 5, 5);
+
     // Layouts
     QVBoxLayout *leftLayout = new QVBoxLayout();
     leftLayout->addWidget(topBlock);
@@ -53,6 +59,7 @@ MainWindow::MainWindow(QWidget *parent)
     mainLayout->addWidget(launchBlock);
 
     centralWidget->setLayout(mainLayout);
+    centralWidget->lower();
 }
 
 MainWindow::~MainWindow()

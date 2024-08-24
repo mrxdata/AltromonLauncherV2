@@ -2,5 +2,6 @@
 #include "EWIEGA46WW/moc_authwindow.cpp"
 #include "EWIEGA46WW/moc_basewindow.cpp"
 #include "EWIEGA46WW/moc_headerpanel.cpp"
+#include "EWIEGA46WW/moc_itemselector.cpp"
 #include "EWIEGA46WW/moc_mainwindow.cpp"
 #include "EWIEGA46WW/moc_windowframe.cpp"

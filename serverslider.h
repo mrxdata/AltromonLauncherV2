@@ -1,4 +1,0 @@
-#ifndef SERVERSLIDER_H
-#define SERVERSLIDER_H
-
-#endif // SERVERSLIDER_H

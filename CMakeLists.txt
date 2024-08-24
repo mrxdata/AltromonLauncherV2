@@ -36,8 +36,9 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         mainwindow.h mainwindow.cpp mainwindow.ui
         headerpanel.h headerpanel.cpp headerpanel.ui
         windowframe.h windowframe.cpp
-        serverslider.cpp
-        serverslider.h
+        itemselector.h itemselector.cpp
+
+
 
 
 
