@@ -2,7 +2,7 @@
 #define MAINWINDOW_H
 
 #include "basewindow.h"
-#include "itemselector.h"
+#include <QNetworkAccessManager>
 
 namespace Ui {
 class MainWindow;
@@ -16,9 +16,11 @@ public:
     explicit MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+private slots:
+
 private:
     Ui::MainWindow *ui;
-    ItemSelector *itemSelector;
+    QNetworkAccessManager *networkManager;
 };
 
 #endif // MAINWINDOW_H

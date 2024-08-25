@@ -26,6 +26,7 @@ private slots:
     void forgotPasswordClicked();
     void registerClicked();
 
+
 private:
     Ui::AuthWindow *ui;
     QNetworkAccessManager *networkManager;

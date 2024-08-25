@@ -3,10 +3,17 @@
 #include <QVBoxLayout>
 #include <QHBoxLayout>
 #include <QLabel>
+#include <QNetworkRequest>
+#include <QNetworkReply>
+#include <QPixmap>
+#include <QImageReader>
+#include <qpainter.h>
+#include <qpainterpath.h>
 
 MainWindow::MainWindow(QWidget *parent)
     : BaseWindow(parent),
-    ui(new Ui::MainWindow)
+    ui(new Ui::MainWindow),
+    networkManager(new QNetworkAccessManager(this))
 {
     ui->setupUi(this);
 
@@ -25,6 +32,46 @@ MainWindow::MainWindow(QWidget *parent)
     QWidget *playerBlock = new QWidget(centralWidget);
     playerBlock->setStyleSheet("background-color: rgba(0, 0, 0, 0.2); border-radius: 15px;");
     playerBlock->setFixedSize(274, 94);
+
+    QLabel *playerHeadLabel = new QLabel(playerBlock);
+    playerHeadLabel->setFixedSize(60, 60);
+
+    playerHeadLabel->move(10, (playerBlock->height() - playerHeadLabel->height()) / 2);
+
+    QString playerName = "datav3nom";
+    QString url = QString("https://altromon.ob1lab.ru/api/skins/textures/head/%1").arg(playerName);
+    QNetworkRequest request((QUrl(url)));
+    QNetworkReply *reply = networkManager->get(request);
+
+    connect(reply,
+            &QNetworkReply::finished,
+            this,
+            [reply,
+             playerHeadLabel]() {
+
+        if (reply->error() == QNetworkReply::NoError) {
+            QImageReader reader(reply);
+            reader.setAutoTransform(true);
+            QImage image = reader.read();
+
+            if (!image.isNull()) {
+                QPixmap pixmap = QPixmap::fromImage(image.scaled(60, 60, Qt::KeepAspectRatio, Qt::FastTransformation));
+                QPixmap roundedPixmap(60, 60);
+                roundedPixmap.fill(Qt::transparent);
+
+                QPainter painter(&roundedPixmap);
+                painter.setRenderHint(QPainter::Antialiasing);
+                QPainterPath path;
+                path.addRoundedRect(0, 0, 60, 60, 5, 5);
+                painter.setClipPath(path);
+                painter.drawPixmap(0, 0, pixmap);
+
+                playerHeadLabel->setPixmap(roundedPixmap);
+            }
+        }
+        reply->deleteLater();
+    });
+
 
     QWidget *infoBlock = new QWidget(centralWidget);
     infoBlock->setStyleSheet("background-color: rgba(0, 0, 0, 0.2); border-radius: 15px;");
@@ -70,3 +117,4 @@ MainWindow::~MainWindow()
 {
     delete ui;
 }
+
