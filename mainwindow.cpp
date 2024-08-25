@@ -4,59 +4,63 @@
 #include <QHBoxLayout>
 #include <QLabel>
 
-
 MainWindow::MainWindow(QWidget *parent)
     : BaseWindow(parent),
-    ui(new Ui::MainWindow),
-    itemSelector(new ItemSelector(this))
+    ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
 
     QWidget *centralWidget = new QWidget(this);
     QVBoxLayout *mainLayout = new QVBoxLayout(centralWidget);
-    mainLayout->setContentsMargins(15, 50, 15, 15); // Отступы: сверху 51 пиксель, остальные по 15 пикселей
+    mainLayout->setContentsMargins(10, 50, 10, 5);
 
-    // Блоки
-    QWidget *topBlock = new QWidget(centralWidget);
-    topBlock->setStyleSheet("background-color: rgba(0, 0, 0, 0.2); border-radius: 15px;");
-    topBlock->setFixedSize(654, 135);
+    QWidget *selectorBlock = new QWidget(centralWidget);
+    selectorBlock->setStyleSheet("background-color: rgba(0, 0, 0, 0.2); border-radius: 15px;");
+    selectorBlock->setFixedSize(270, 480);
 
-    QWidget *serverTitleBlock = new QWidget(centralWidget);
-    serverTitleBlock->setStyleSheet("background-color: rgba(0, 0, 0, 0.2); border-radius: 15px;");
-    serverTitleBlock->setFixedSize(654, 93);
-
-    QWidget *serverDescriptionBlock = new QWidget(centralWidget);
-    serverDescriptionBlock->setStyleSheet("background-color: rgba(0, 0, 0, 0.2); border-radius: 15px;");
-    serverDescriptionBlock->setFixedSize(654, 140);
-
-    QWidget *launchBlock = new QWidget(centralWidget);
-    launchBlock->setStyleSheet("background-color: rgba(0, 0, 0, 0.2); border-radius: 15px;");
-    launchBlock->setFixedSize(934, 70);
+    QWidget *titleBlock = new QWidget(centralWidget);
+    titleBlock->setStyleSheet("background-color: rgba(0, 0, 0, 0.2); border-radius: 15px;");
+    titleBlock->setFixedSize(380, 94);
 
     QWidget *playerBlock = new QWidget(centralWidget);
     playerBlock->setStyleSheet("background-color: rgba(0, 0, 0, 0.2); border-radius: 15px;");
-    playerBlock->setFixedSize(266, 393);
+    playerBlock->setFixedSize(274, 94);
 
-    QVBoxLayout *topBlockLayout = new QVBoxLayout(topBlock);
-    topBlockLayout->addWidget(itemSelector); // Добавляем ItemSelector в topBlock
-    topBlockLayout->setContentsMargins(5, 5, 5, 5);
+    QWidget *infoBlock = new QWidget(centralWidget);
+    infoBlock->setStyleSheet("background-color: rgba(0, 0, 0, 0.2); border-radius: 15px;");
+    infoBlock->setFixedSize(662, 129);
 
-    // Layouts
+    QWidget *descriptionBlock = new QWidget(centralWidget);
+    descriptionBlock->setStyleSheet("background-color: rgba(0, 0, 0, 0.2); border-radius: 15px;");
+    descriptionBlock->setFixedSize(662, 163);
+
+    QWidget *launchBlock = new QWidget(centralWidget);
+    launchBlock->setStyleSheet("background-color: rgba(0, 0, 0, 0.2); border-radius: 15px;");
+    launchBlock->setFixedSize(662, 70);
+
     QVBoxLayout *leftLayout = new QVBoxLayout();
-    leftLayout->addWidget(topBlock);
-    leftLayout->addSpacerItem(new QSpacerItem(0, 6)); // Отступ между блоками
-    leftLayout->addWidget(serverTitleBlock);
-    leftLayout->addSpacerItem(new QSpacerItem(0, 7)); // Отступ между блоками
-    leftLayout->addWidget(serverDescriptionBlock);
+    leftLayout->addWidget(selectorBlock);
+    leftLayout->addSpacing(2);
+
+    QVBoxLayout *rightLayout = new QVBoxLayout();
+    QHBoxLayout *topRightLayout = new QHBoxLayout();
+    topRightLayout->addWidget(titleBlock);
+    topRightLayout->addSpacing(2);
+    topRightLayout->addWidget(playerBlock);
+    rightLayout->addLayout(topRightLayout);
+    rightLayout->addSpacing(2);
+    rightLayout->addWidget(infoBlock);
+    rightLayout->addSpacing(2);
+    rightLayout->addWidget(descriptionBlock);
+    rightLayout->addSpacing(2);
+    rightLayout->addWidget(launchBlock);
 
     QHBoxLayout *mainHorizontalLayout = new QHBoxLayout();
     mainHorizontalLayout->addLayout(leftLayout);
-    mainHorizontalLayout->addSpacerItem(new QSpacerItem(5, 0)); // Отступ между блоками
-    mainHorizontalLayout->addWidget(playerBlock);
+    mainHorizontalLayout->addSpacing(2);
+    mainHorizontalLayout->addLayout(rightLayout);
 
     mainLayout->addLayout(mainHorizontalLayout);
-    mainLayout->addSpacerItem(new QSpacerItem(0, 7)); // Отступ между блоками
-    mainLayout->addWidget(launchBlock);
 
     centralWidget->setLayout(mainLayout);
     centralWidget->lower();
